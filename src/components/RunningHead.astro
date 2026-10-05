@@ -2,15 +2,17 @@
 // The almanac's running head: a double rule, the book's title on the left, page links on the right.
 interface Props {
   label: string;
+  /** Where the label leads: the start page, unless the head names something else. */
+  labelHref?: string;
   links: { href: string; text: string }[];
 }
-const { label, links } = Astro.props;
+const { label, labelHref = '/', links } = Astro.props;
 ---
 
 <div class="running-head">
   <hr class="double-rule" />
   <div class="running-row">
-    <p>{label}</p>
+    <p><a href={labelHref}>{label}</a></p>
     <nav aria-label="Page">
       {links.map((l) => <a href={l.href}>{l.text}</a>)}
     </nav>

@@ -15,11 +15,15 @@ interface Props {
 
 const { title, description, belongsTo, updated, siblings = [] } = Astro.props;
 const here = Astro.url.pathname;
+const headLinks = [
+  { href: '/', text: 'Contents' },
+  ...(belongsTo.href === '/' ? [] : [{ href: belongsTo.href, text: 'Back to entry' }]),
+];
 ---
 
 <Base title={title} description={description}>
   <div class="doc">
-    <RunningHead label={belongsTo.text} links={[{ href: '/', text: 'Contents' }, { href: belongsTo.href, text: 'Back to entry' }]} />
+    <RunningHead label={belongsTo.text} labelHref={belongsTo.href} links={headLinks} />
 
     <header class="doc-head rule-under">
       <h1>{title}</h1>
