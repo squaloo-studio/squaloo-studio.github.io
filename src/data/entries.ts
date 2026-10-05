@@ -34,6 +34,6 @@ export const entries: Entry[] = [
     titleHtml: 'thesis-kit',
     status: 'Live',
     summary: 'A Cursor workspace for writing a thesis from sources you checked yourself.',
-    url: 'https://github.com/CTRLMANu/thesis-kit',
+    url: 'https://github.com/squaloo-studio/thesis-kit',
   },
 ];
