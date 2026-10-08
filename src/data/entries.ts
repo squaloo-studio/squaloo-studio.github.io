@@ -24,8 +24,9 @@ export const entries: Entry[] = [
     slug: 'ai-co2',
     title: 'AI usage → CO₂',
     titleHtml: 'AI usage <span class="nowrap"><span class="arrow" aria-hidden="true">→</span> CO<sub>2</sub></span>',
-    status: 'In progress',
+    status: 'Live',
     summary: 'The footprint of your AI use, estimated as an honest range, right in your browser.',
+    url: '/ai-co2/',
   },
   {
     no: '03',
