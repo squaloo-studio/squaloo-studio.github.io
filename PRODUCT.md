@@ -53,7 +53,7 @@ None binding yet. The current site's look (black background, purple–pink gradi
 ## Evidence on Hand
 
 - Hue of Year: App Store listing (link above); feature descriptions, FAQ, Privacy Policy and Terms (last updated 2026-04-17) in the old site on the `main` branch: `src/app/pages/HueOfYear.tsx`, `Support.tsx`, `Privacy.tsx`, `Terms.tsx`.
-- About Manuel (his own words, confirmed 2026-09-23): he builds side projects as a creative outlet and out of a need to build something. He is a heavy AI user himself (about 1.3 billion tokens over July and part of August 2026), which is where the CO2 tool comes from. No other bio facts; don't add any.
+- About Manuel (his own words, confirmed 2026-09-23): he builds side projects as a creative outlet and out of a need to build something. He is a heavy AI user himself (about 3.4 billion tokens over July and part of August 2026), which is where the CO2 tool comes from. No other bio facts; don't add any.
 - Supplied by Manuel: a portrait photo (`assets/source/portrait.png`) and five Hue of Year App Store frames (`assets/source/hue-frame-*.png`). Site rasters are derived from these by `scripts/prepare-assets.mjs`. Still missing: the Hue of Year app icon.
 - CO2 tool: not built yet; no screenshots or results exist. Don't fake any.
 - No testimonials, press, download counts or user numbers. Don't invent any.

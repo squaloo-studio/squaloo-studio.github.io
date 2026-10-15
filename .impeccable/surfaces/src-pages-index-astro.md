@@ -11,7 +11,7 @@ Scope: the site home at `/`. Visitor mode: Experience (a personal studio / portf
 
 Audience and job: people judging Manuel's work arrive from a shared link, skim for seconds, and decide whether to open a project. Action: open an entry. Proof: the two real entries, his photo, his own facts. Constraints: see PRODUCT.md (about Manuel, no employer, no year framing, stack Astro, static on GitHub Pages).
 
-Copy locked by Manuel: tagline "Things I make on the side. First edition." Compiler's note approved in draft: "I'm Manuel. I build things on the side, partly as a creative outlet, partly because I need to be making something. This is where they live: small, careful tools that show people something about themselves they'd otherwise miss, like a year of moods or the footprint of their AI use. That second one started with my own: 1.3 billion tokens over July and part of August. Two entries so far. More as they ship."
+Copy locked by Manuel: tagline "Things I make on the side. First edition." Compiler's note approved in draft: "I'm Manuel. I build things on the side, partly as a creative outlet, partly because I need to be making something. This is where they live: small, careful tools that show people something about themselves they'd otherwise miss, like a year of moods or the footprint of their AI use. That second one started with my own: 3.4 billion tokens over July and part of August. Two entries so far. More as they ship."
 
 Unresolved: the site's name (do not print "Squaloo Studios"; the cover leads with Manuel's name). No dates or years anywhere as framing.
 
