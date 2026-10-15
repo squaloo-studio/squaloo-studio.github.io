@@ -153,3 +153,9 @@ for (const { n, out, box } of screens) {
 // Hue of Year app icon, as supplied (the page applies the iOS corner shape).
 await sharp(`${SRC}/hue-icon.png`).resize(360).webp({ quality: 90 }).toFile(`${OUT}/hue-icon.webp`);
 console.log('hue-icon.webp');
+
+// ai-co2: desktop screenshots of the tool, as supplied (no crop).
+for (const name of ['co2-result', 'co2-tips']) {
+  await sharp(`${SRC}/${name}.png`).resize(1600).webp({ quality: 86 }).toFile(`${OUT}/${name}.webp`);
+  console.log(`${name}.webp`);
+}

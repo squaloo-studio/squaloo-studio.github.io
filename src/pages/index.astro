@@ -122,6 +122,17 @@ const [hue, co2, thesis] = entries;
       </div>
 
       <Co2Plan />
+
+      <div class="plates plates-wide">
+        <figure>
+          <img src="/img/co2-result.webp" alt="ai-co2 result: 13–156 kg CO₂e from Claude Code in the last 30 days, a middle estimate of 40 kg, like driving 250 km, drawn as a row of dots along a kg scale" width="1600" height="906" loading="lazy" />
+          <figcaption><span>Fig. 1</span> The estimate as a range. Each dot is one likely outcome, so you can see how sure it is.</figcaption>
+        </figure>
+        <figure>
+          <img src="/img/co2-tips.webp" alt="Two ways to cut: moving half of the Opus work to Sonnet, and a third less re-reading, each with the kilograms it saves and a switch to apply it" width="1600" height="593" loading="lazy" />
+          <figcaption><span>Fig. 2</span> Ways to cut. Each tip says how to do it and what it saves. One switch applies it to the estimate.</figcaption>
+        </figure>
+      </div>
     </article>
 
     <article class="entry entry-progress" id={`no-${thesis.no}`} aria-labelledby="thesis-title">
@@ -400,6 +411,12 @@ const [hue, co2, thesis] = entries;
     grid-column: 2;
   }
 
+  /* Desktop screenshots: the full width under the entry, columns sized so both plates stand equally tall. */
+  .plates-wide {
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(0, 1766fr) minmax(0, 2698fr);
+  }
+
   /* ---------- Note ---------- */
   .note {
     display: grid;
@@ -479,6 +496,11 @@ const [hue, co2, thesis] = entries;
     .entry-progress .entry-body,
     .entry-progress > :global(.reference) {
       grid-column: 1;
+    }
+
+    .plates-wide {
+      grid-template-columns: minmax(0, 1fr);
+      overflow-x: visible;
     }
 
     .entry-head {
